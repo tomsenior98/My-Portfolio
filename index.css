@@ -65,6 +65,17 @@ body, html{
     background: transparent;
 }
 
+/* Main text at the top of the page */
 .border{
-    color: red;
+    color: red;   
+}
+
+/* images of me etc  */
+img{
+    margin:1%;
+    position: relative;
+}
+
+img:hover{
+    transform: scale(1.2);
 }
