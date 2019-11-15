@@ -21,7 +21,7 @@ body, html{
 }
 
 .pimg1{
-    background-image:url(./img/aa.jpeg);
+    background-image:url(./img/qq.jpeg);
     min-height: 100%;
 }
 
@@ -31,7 +31,7 @@ body, html{
 }
 
 .pimg3{
-    background-image:url(./img/iphone.jpeg);
+    background-image:url(./img/aa.jpeg);
     min-height: 400px;
 }
 
@@ -68,6 +68,10 @@ body, html{
 /* Main text at the top of the page */
 .border{
     color: red;   
+}
+
+.border span{
+    color: blue;
 }
 
 /* images of me etc  */
