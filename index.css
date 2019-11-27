@@ -88,3 +88,12 @@ img{
 img:hover{
     transform: scale(1.2);
 }
+
+/* CSS for the live clock at the top of the page */
+
+#tom{
+    color:red;
+    text-shadow: 5px 1px blue;
+    font-family: monospace;
+    font-size: 90px;
+}
