@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body, html{
    height:100%;
    margin: 0;
@@ -19,19 +23,49 @@ body, html{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /*  */
     background-attachment: fixed;
-    /* fixed = parallax */
-    /* scroll = normal */
 }
 
+/* CSS for the Nav Bar */
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto;
+    width:100%;
+    background-color:black;
+}
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    height:2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding:20px;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+/* Main Div for the Top section on the page */
+
 .pimg1{
-    background-image:url(./img/qq.jpeg);
+    background:#2A2E39;
     min-height: 100%;
 }
 
 .pimg2{
-    background-image:url(./img/ww.jpg);
+    background:white;
     min-height: 400px;
 }
 
@@ -72,11 +106,11 @@ body, html{
 
 /* Main text at the top of the page */
 .border{
-    color: yellow;   
+    color: white;   
 }
 
 .border span{
-    color: blue;
+    color: black;
 }
 
 /* images of me etc  */
@@ -96,4 +130,11 @@ img:hover{
     text-shadow: 5px 1px blue;
     font-family: monospace;
     font-size: 90px;
+}
+
+/* CSS for the Work experience link */
+
+#work{
+    color:red;
+    text-decoration: none;
 }
